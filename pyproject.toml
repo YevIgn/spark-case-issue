@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spark-case-issue"
+version = "0.1.0"
+description = ""
+authors = ["Evgenii Ignatev <yevgeniy.ignatyev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
